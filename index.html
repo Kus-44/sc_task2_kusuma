@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stopwatch App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⏱ Stopwatch</h1>
+    <div id="display">00:00:00</div>
+    <div class="buttons">
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+  <!-- Dark Mode Toggle Button -->
+<button id="darkModeToggle">🌓 Toggle Dark Mode</button>
+
+<!-- Click Sound -->
+<audio id="clickSound" src="sound.mpeg" preload="auto"></audio>
+<div class="controls">
+  <button id="startBtn">Start</button>
+  <button id="pauseBtn">Pause</button>
+  <button id="resetBtn">Reset</button>
+  <button id="lapBtn">Lap</button>
+</div>
+
+<ul id="lapList"></ul>
+<section id="timer">
+  <h2>Countdown Timer</h2>
+  <input type="number" id="minutes" placeholder="Minutes" min="0">
+  <input type="number" id="seconds" placeholder="Seconds" min="0" max="59">
+  <div id="timerDisplay">00:00</div>
+  <button onclick="startTimer()">Start</button>
+  <button onclick="pauseTimer()">Pause</button>
+  <button onclick="resetTimer()">Reset</button>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
