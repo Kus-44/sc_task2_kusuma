@@ -1,5 +1,4 @@
 # sc_task2_kusuma
-A Simple  Stop watch App built using HTML, CSS, and JavaScript.
 # Stopwatch App
 
 A simple stopwatch built using **HTML**, **CSS**, and **JavaScript**.
@@ -14,7 +13,7 @@ A simple stopwatch built using **HTML**, **CSS**, and **JavaScript**.
 - Simple and clean UI
 
 ## Live Demo
-[Click here to use the stopwatch]()
+[Click here to use the stopwatch](https://kus-44.github.io/sc_task2_kusuma/)
 
 ## How to Use
 - Press the **Start** button (or keyboard shortcut) to start the timer
